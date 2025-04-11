@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <h1><a href="#" id="confetti-title">Momo</a></h1>
+          <nav>
+
+          </nav>
+        </div>
+      </header>
+      <div class="background-image-effect" id="backgroundEffect"></div>
+
+      <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+      <script>
+        const title = document.getElementById("confetti-title");
+        const bgEffect = document.getElementById("backgroundEffect");
+      
+        title.addEventListener("click", (e) => {
+          e.preventDefault();
+      
+          // Solta os confetes
+          confetti({
+            particleCount: 2000,
+            spread: 500,
+            origin: { y: 0.6 },
+          });
+      
+          // Mostra a imagem de fundo por alguns segundos
+          bgEffect.classList.add("show");
+      
+          setTimeout(() => {
+            bgEffect.classList.remove("show");
+          }, 1000); // fica visível por 1 segundo
+        });
+      </script>
+      
+      
+</body>
+</html>

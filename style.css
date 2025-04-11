@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+.header
+{
+    color: black;
+    }
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 30rem;
+      }
+      header h1 a {
+        color: rgb(5, 5, 5);
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      
+      header h1 a:hover {
+        color: #bc1a86;
+        cursor: pointer;
+      }
+.background-image-effect {
+    position: fixed;
+bottom: 80px;
+right: 100px;
+    width: 90%;
+    height: 90%;
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBLJfRpoevPaxZHBNG8VC-WHuMaIof6vkcIOgKCAt50dhWTTg8');
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: -1;
+  }
+  .background-image-effect.show {
+    opacity: 1;
+    z-index: 0;
+  }
+  
+      
