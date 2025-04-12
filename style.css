@@ -74,10 +74,10 @@ header h1 a:hover {
 
 .background-image-effect {
   position: fixed;
-  bottom: 80px;
-  right: 100px;
-  width: 100%;
-  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBLJfRpoevPaxZHBNG8VC-WHuMaIof6vkcIOgKCAt50dhWTTg8');
   background-size: cover;
   background-position: center;
