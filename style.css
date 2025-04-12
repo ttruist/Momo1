@@ -65,12 +65,7 @@ header h1 a:hover {
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-}
 
-.btn:hover {
-  background-color: #a11073;
-  transform: scale(1.05);
-}
 
 .background-image-effect {
   position: fixed;
