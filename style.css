@@ -77,8 +77,8 @@ header h1 a:hover {
   position: fixed;
   bottom: 80px;
   right: 100px;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBLJfRpoevPaxZHBNG8VC-WHuMaIof6vkcIOgKCAt50dhWTTg8');
   background-size: cover;
   background-position: center;
